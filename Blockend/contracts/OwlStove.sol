@@ -24,9 +24,9 @@ contract OwlStove is ERC721, ERC721Enumerable, Ownable {
     function safeMint() public {
         require(
             totalSupply() < maxSupply,
-            "The mint has concluded, all 33 Owls are out of the stove, stay tuned for upcoming drops."
+            "The mint has concluded, all 33 Owls are out of the stove, stay tuned for upcoming drops"
         );
-        require(balanceOf(msg.sender) < 1, "You already own an owl OwO.");
+        require(balanceOf(msg.sender) < 1, "You already own an owl OwO");
         uint256 tokenId = _tokenIdCounter.current();
         _tokenIdCounter.increment();
         _safeMint(msg.sender, tokenId);
