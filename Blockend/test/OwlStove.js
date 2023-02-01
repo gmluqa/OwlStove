@@ -58,4 +58,5 @@ describe("OwlStove contract", function () {
       "The mint has concluded, all 33 Owls are out of the stove, stay tuned for upcoming drops"
     );
   });
+  it("ID's of the Owls are random/pseudorandomly sequenced");
 });
