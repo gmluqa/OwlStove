@@ -17,7 +17,7 @@ contract OwlStove is ERC721, ERC721Enumerable {
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "ipfs://QmNkKiMMcx2nRShNazopHrJrsysvnsTMnXVMN7iywDPS4r/";
+        return "ipfs://QmZjedUUcC5SGtH7zzvAUJcr9Jhpncr3i7RagpENAuZKyC/";
     }
 
     function safeMint() public {
