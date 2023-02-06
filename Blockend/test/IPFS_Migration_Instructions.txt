@@ -1,0 +1,7 @@
+npx thirdweb@latest upload ./001_ipfs_imgs_upload_1st/
+
+// Once images are uploaded, go to the 002_ipfs... folder and give each URI it's respective PATH value
+
+npx thirdweb@latest upload ./002_ipfs_URI.../
+
+// Grab that base URI and put it in the contract!
